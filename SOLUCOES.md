@@ -105,3 +105,9 @@ echo "Texto adicionado" >> restricted.txt
 chmod +x challenge_20
 ./challenge_20
 ```
+
+## Problema 22 (B)
+```bash
+gcc compile_me.c -o compile_me
+./compile_me
+```
