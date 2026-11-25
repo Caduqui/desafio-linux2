@@ -58,3 +58,8 @@ rm empty.txt
 ```bash
 cat /dev/null > empty.txt
 ```
+
+## Problema 13 (B)
+```bash
+cp hello.txt goodbye.txt
+```
