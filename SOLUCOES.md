@@ -166,3 +166,8 @@ echo Hello; sleep 5; echo 'world!'
 ```bash
 dd if=/dev/zero of=zeros.bin bs=1M count=1
 ```
+
+## Problema 34 (I)
+```bash
+head -c 2M /dev/urandom > random.bin
+```
