@@ -211,3 +211,8 @@ time (tail -n +2 people.csv | cut -d, -f2 | sort -u | wc -l); time (awk -F, 'NR>
 ```bash
 cut -d, -f4 people.csv | grep -cx Josiah
 ```
+
+## Problema 43 (I)
+```bash
+find . -maxdepth 1 -type f | wc -l
+```
