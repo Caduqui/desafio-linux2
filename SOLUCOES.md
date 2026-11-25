@@ -146,3 +146,8 @@ grep -rl "You found the needle in the haystack!" bunch_of_files/
 ```bash
 head -n 25 people.csv
 ```
+
+## Problema 30 (B)
+```bash
+tail -n 25 people.csv
+```
