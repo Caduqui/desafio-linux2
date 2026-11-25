@@ -53,3 +53,8 @@ rm empty.txt
 ```bash
 > empty.txt
 ```
+
+## Problema 12 (I)
+```bash
+cat /dev/null > empty.txt
+```
