@@ -63,3 +63,8 @@ cat /dev/null > empty.txt
 ```bash
 cp hello.txt goodbye.txt
 ```
+
+## Problema 14 (B)
+```bash
+mv goodbye.txt hello_copy.txt
+```
