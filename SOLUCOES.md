@@ -94,3 +94,8 @@ ls -l
 chmod u+w restricted.txt
 echo "Texto adicionado" >> restricted.txt
 ```
+
+## Problema 20 (B)
+```bash
+./hello_executable
+```
