@@ -156,3 +156,8 @@ tail -n 25 people.csv
 ```bash
 diff greeting1.txt greeting2.txt
 ```
+
+## Problema 32 (I)
+```bash
+echo Hello; sleep 5; echo 'world!'
+```
