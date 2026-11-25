@@ -221,3 +221,8 @@ find . -maxdepth 1 -type f | wc -l
 ```bash
 find . -mindepth 1 -maxdepth 1 -type d | wc -l
 ```
+
+## Problema 45 (I)
+```bash
+find . -type f -name "*deleteme*" -print -delete
+```
