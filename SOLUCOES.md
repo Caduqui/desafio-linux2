@@ -201,3 +201,8 @@ tail -n +2 people.csv | cut -d, -f2 | sort -u | wc -l
 ```bash
 awk -F, 'NR>1 {print $2}' people.csv | sort -u | wc -l
 ```
+
+## Problema 41 (A)
+```bash
+time (tail -n +2 people.csv | cut -d, -f2 | sort -u | wc -l); time (awk -F, 'NR>1 {print $2}' people.csv | sort -u | wc -l)
+```
