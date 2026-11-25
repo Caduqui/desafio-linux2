@@ -121,3 +121,8 @@ gcc compile_me.c -o compile_me
 ```bash
 date
 ```
+
+## Problema 25 (B)
+```bash
+ps aux
+```
