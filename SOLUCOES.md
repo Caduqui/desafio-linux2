@@ -43,3 +43,8 @@ echo "Hello World" > hello.txt
 ```bash
 touch empty.txt
 ```
+
+## Problema 10 (B)
+```bash
+rm empty.txt
+```
