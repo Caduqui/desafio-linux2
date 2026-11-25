@@ -9,3 +9,8 @@ tar -xzf challenges.tar.gz
 ```bash
 cd challenges
 ```
+
+## Problema 3 (B)
+```bash
+ls
+```
