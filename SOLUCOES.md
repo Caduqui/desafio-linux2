@@ -181,3 +181,8 @@ wc -l ../README.txt
 ```bash
 tac ../README.txt
 ```
+
+## Problema 37 (I)
+```bash
+cut -d, -f2 people.csv
+```
