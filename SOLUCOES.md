@@ -99,3 +99,9 @@ echo "Texto adicionado" >> restricted.txt
 ```bash
 ./hello_executable
 ```
+
+## Problema 21 (B)
+```bash
+chmod +x challenge_20
+./challenge_20
+```
