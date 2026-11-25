@@ -186,3 +186,8 @@ tac ../README.txt
 ```bash
 cut -d, -f2 people.csv
 ```
+
+## Problema 38 (A)
+```bash
+cut -d, -f2 people.csv | sort -u | wc -l
+```
