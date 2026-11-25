@@ -171,3 +171,8 @@ dd if=/dev/zero of=zeros.bin bs=1M count=1
 ```bash
 head -c 2M /dev/urandom > random.bin
 ```
+
+## Problema 35 (I)
+```bash
+wc -l ../README.txt
+```
