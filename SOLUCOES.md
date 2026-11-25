@@ -33,3 +33,8 @@ rm -r foo
 ```bash
 echo "Hello World"
 ```
+
+## Problema 8 (B)
+```bash
+echo "Hello World" > hello.txt
+```
