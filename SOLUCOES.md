@@ -206,3 +206,8 @@ awk -F, 'NR>1 {print $2}' people.csv | sort -u | wc -l
 ```bash
 time (tail -n +2 people.csv | cut -d, -f2 | sort -u | wc -l); time (awk -F, 'NR>1 {print $2}' people.csv | sort -u | wc -l)
 ```
+
+## Problema 42 (A)
+```bash
+cut -d, -f4 people.csv | grep -cx Josiah
+```
