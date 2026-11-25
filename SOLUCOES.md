@@ -161,3 +161,8 @@ diff greeting1.txt greeting2.txt
 ```bash
 echo Hello; sleep 5; echo 'world!'
 ```
+
+## Problema 33 (I)
+```bash
+dd if=/dev/zero of=zeros.bin bs=1M count=1
+```
