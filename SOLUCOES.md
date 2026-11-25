@@ -216,3 +216,8 @@ cut -d, -f4 people.csv | grep -cx Josiah
 ```bash
 find . -maxdepth 1 -type f | wc -l
 ```
+
+## Problema 44 (I)
+```bash
+find . -mindepth 1 -maxdepth 1 -type d | wc -l
+```
