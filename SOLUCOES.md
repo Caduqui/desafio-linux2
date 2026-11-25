@@ -196,3 +196,8 @@ cut -d, -f2 people.csv | sort -u | wc -l
 ```bash
 tail -n +2 people.csv | cut -d, -f2 | sort -u | wc -l
 ```
+
+## Problema 40 (A)
+```bash
+awk -F, 'NR>1 {print $2}' people.csv | sort -u | wc -l
+```
