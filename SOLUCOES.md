@@ -191,3 +191,8 @@ cut -d, -f2 people.csv
 ```bash
 cut -d, -f2 people.csv | sort -u | wc -l
 ```
+
+## Problema 39 (A)
+```bash
+tail -n +2 people.csv | cut -d, -f2 | sort -u | wc -l
+```
