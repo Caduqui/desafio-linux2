@@ -48,3 +48,8 @@ touch empty.txt
 ```bash
 rm empty.txt
 ```
+
+## Problema 11 (I)
+```bash
+> empty.txt
+```
