@@ -247,3 +247,8 @@ find bunch_of_files/ -type f ! -name file001.rand -exec cmp -s bunch_of_files/fi
 touch supercalifragilisticexpialidocious.txt
 rm $_
 ```
+
+## Problema 50 (A)
+```bash
+touch {a..c}-{1..3}.txt
+```
