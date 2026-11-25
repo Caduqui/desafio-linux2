@@ -88,3 +88,9 @@ pwd
 ```bash
 ls -l
 ```
+
+## Problema 19 (B)
+```bash
+chmod u+w restricted.txt
+echo "Texto adicionado" >> restricted.txt
+```
