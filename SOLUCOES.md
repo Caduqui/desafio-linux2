@@ -176,3 +176,8 @@ head -c 2M /dev/urandom > random.bin
 ```bash
 wc -l ../README.txt
 ```
+
+## Problema 36 (B)
+```bash
+tac ../README.txt
+```
