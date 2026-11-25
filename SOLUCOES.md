@@ -68,3 +68,8 @@ cp hello.txt goodbye.txt
 ```bash
 mv goodbye.txt hello_copy.txt
 ```
+
+## Problema 15 (I)
+```bash
+diff -s hello.txt hello_copy.txt
+```
