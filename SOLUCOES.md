@@ -111,3 +111,8 @@ chmod +x challenge_20
 gcc compile_me.c -o compile_me
 ./compile_me
 ```
+
+## Problema 23 (A)
+```bash
+./redirect > output.txt 2>&1
+```
