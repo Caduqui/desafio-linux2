@@ -226,3 +226,8 @@ find . -mindepth 1 -maxdepth 1 -type d | wc -l
 ```bash
 find . -type f -name "*deleteme*" -print -delete
 ```
+
+## Problema 46 (I)
+```bash
+sed -i "s/You found the needle in the haystack!/The needle has been removed./" bunch_of_files/file719.rand
+```
