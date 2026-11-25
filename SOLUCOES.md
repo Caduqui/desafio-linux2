@@ -236,3 +236,8 @@ sed -i "s/You found the needle in the haystack!/The needle has been removed./" b
 ```bash
 tr ',' '|' < people.csv > people_pipe.csv
 ```
+
+## Problema 48 (A)
+```bash
+find bunch_of_files/ -type f ! -name file001.rand -exec cmp -s bunch_of_files/file001.rand {} \; -print
+```
