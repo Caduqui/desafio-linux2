@@ -73,3 +73,8 @@ mv goodbye.txt hello_copy.txt
 ```bash
 diff -s hello.txt hello_copy.txt
 ```
+
+## Problema 16 (B)
+```bash
+cat hello.txt hello_copy.txt > 2_hellos.txt
+```
